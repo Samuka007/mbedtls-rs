@@ -406,7 +406,6 @@ impl MbedtlsBuilder {
             .set("PK_WRITE_C", false)
             .set("DEBUG_C", false)
             .set("PADLOCK_C", false)
-            .set("SSL_ALPN", false);
 
         self.hooks
             .iter()
